@@ -611,8 +611,8 @@ z-index: 1;
     line-height: 21.94px;
     text-align: left;
     position: absolute;
-    top: 35px;
-    left: 100px;
+    top: 45px;
+    left: 70px;
     width: 174px;
 height: 22px;
   }
@@ -623,14 +623,14 @@ height: 22px;
     width: 166px;
 height: 200px;
 top: 33px;
-left: 183px;
+left: 133px;
 border: 1px solid #DE4B18;
   }
 
   .ArseneTutor{
     position: relative;
     top: 203px;
-    left: 33px;
+    right: 20px;
 
   }
 
@@ -650,7 +650,7 @@ left: 70px;
 
   }
   .Month{
-    width: 500px;
+    width: 369px;
 height: 51px;
 padding: 13px 20px 13px 20px;
 gap: 10px;
@@ -661,7 +661,7 @@ left: 70px;
 
   .Methodcontainer, .MethodCol{
     display: block;
-    width: 100%; 
+    width: 90%; 
     margin-bottom: 10px; 
   }
 
@@ -700,13 +700,15 @@ margin-top: 20px;
   }
 
   .CardContainerField{
-  width:500px;
+  width:369px;
 height: 51px;
 padding: 13px 20px 13px 20px;
 gap: 10px;
 border-radius: 8px;
 border: none;
 background: #E2E8F0;
+      position: relative;
+      left: 24px;
 
   }
 
@@ -722,21 +724,22 @@ background: #E2E8F0;
 
   .HalfCardContainerField{
     position: relative;
-    right: 125px;
-    width:250px;
+    right: 85px;
+    width:150px;
+      border-radius: 8px;
 
   }
 
   .HalfICardContainerField{
-    width:230px;
+    width:150px;
     position: relative;
     left: 20px;
   }
 
   .HalfIICardContainerField{
-    width:230px;
+    width:150px;
     position: relative;
-    right: 20px;
+    right: 5px;
   }
 
   .slash{
@@ -747,12 +750,16 @@ background: #E2E8F0;
   }
 
   .confirm{
-    width: 495px;
+    width: 369px;
 height: 65px;
 padding: 10px 20px 10px 20px;
 gap: 10px;
 border-radius: 8px;
 margin-top: 40px;
+position: relative;
+      left: 24px;
+          top: 0px;
+
 
   }
 

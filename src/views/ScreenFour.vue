@@ -925,7 +925,7 @@ export default {
 
   .Report{
     position: absolute;
-    top: 35px;
+    top: 45px;
     left: 100px;
     font-family: Montserrat;
     font-size: 20px;
@@ -942,10 +942,10 @@ export default {
     opacity: 1;
     display: block;
     position: absolute;
-    width: 450px;
+    width: 369px;
     height: 46px;
     bottom: 780px;
-    right: 80px;
+    left: 3px;
     border: 1px solid #B0B0B0;
     z-index: 2;
     border-top-left-radius: 8px;
@@ -970,7 +970,7 @@ export default {
     height: 46px;
     position: absolute;
     bottom: 780px;
-    right: 65px;
+    right: 1px;
     z-index: 3;
     width: 89px;
     gap: 10px;
@@ -982,7 +982,7 @@ export default {
 
 
   .innerContainer{
-    width: 100%;
+    width: 90%;
     position: absolute;
     left: 5px;
     top: 30px;
@@ -1004,7 +1004,7 @@ export default {
     color: #969696;
     position: absolute;
     top: 90px;
-    width: 90%;
+    width: 369px;
 
 }
 
@@ -1016,33 +1016,36 @@ export default {
 }
 
 .AICLineII{
-    width: 100%;
+    width: 90%;
 }
 
 .AllIII{
 top: 220px;
 left: 18px;
 border: 2px solid #186BAD;
-width: 180px;
+width: 120px;
 
 }
 
 .AllIV{
     position: relative;
-    right: 20px;
+    right: 5px;
+}
+
+.AllV{
 }
 
 .sssrII{
     position: absolute;
     top: 170px;
-    width: 480px;
+    width:  100%;
     height: 32px;
-    left: 18px;
+    left: 10px;
     padding: 7px 7px 0px 7px;
     justify-content: space-between;
     background: #186BADCC;
     color: white;
-    font-size: 14px;
+    font-size: 12px;
     font-family: Poppins;
     font-weight: 500;
     line-height: 18px;
@@ -1059,8 +1062,8 @@ width: 180px;
     opacity: 1;
     position: relative;
     top: 230px;
-    left: 120px;
-    width: 480px;
+    left: 90px;
+    width: 100%;
 
 }
 
@@ -1071,9 +1074,11 @@ width: 180px;
     font-weight: bold;
     text-align: left;
     color: #186BAD;
-    position: relative;
-    left: 1px;
-    top: 3px;
+    position: absolute;
+    top: 1px;
+        z-index: 5;
+        left: 250px;
+
 
 }
 
@@ -1092,7 +1097,7 @@ width: 180px;
     font-weight: 400;
     text-align: left;
     position: relative;
-    right: 50px;
+    right: 65px;
 }
 
 .com{
@@ -1107,55 +1112,18 @@ width: 180px;
     position: relative;
     top: 3px;
     bottom: 0px;
-    right: 20px;
+    right: 50px;
 }
 
 .fullHr{
  border: #898A8B 2px solid;
  position: relative;
  top: 220px;
- width: 480px;
- left: 20px;
+ width: 100%;
+ left: 10px;
  opacity: 1;
 
-
-
-} 
- 
-
+}    
 }
 
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
   </style>
