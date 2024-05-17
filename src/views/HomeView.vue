@@ -60,27 +60,45 @@ export default {
   text-decoration: none;
   color: rgb(125, 168, 125);
   font-weight: bolder;
+  font-size: 16px;
+  font-family: Roboto;
+  margin-top: 10px;
 }
 
 .ScreenTwo{
   text-decoration: none;
   color: rgb(125, 168, 125);
   font-weight: bolder;
+  font-size: 16px;
+  font-family: Roboto;
+  margin-top: 10px;
+
 }
 
 .ScreenThree{
   text-decoration: none;
   color: rgb(125, 168, 125);
   font-weight: bolder;
+  font-size: 16px;
+  font-family: Roboto;
+  margin-top: 10px;
+
 }
 
 .ScreenFour{
   text-decoration: none;
   color: rgb(125, 168, 125);
   font-weight: bolder;
+  font-size: 16px;
+  font-family: Roboto;
+  margin-top: 10px;
+
 }
 
 .ScreenFive{
+  font-size: 16px;
+  font-family: Roboto;
+  margin-top: 10px;
   text-decoration: none;
   color: rgb(125, 168, 125);
   font-weight: bolder;

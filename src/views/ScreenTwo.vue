@@ -441,7 +441,7 @@ td{
   .table{
     text-align:left;
     position: relative;
-    width: 500px;
+    width: 400px;
     height: 362px;
     top: 57px;
     left: 25px;
@@ -452,16 +452,16 @@ td{
   th, td{
     font-size: 13px;
     height: 43px;
-    width: 120px;
+    width: 80px;
     text-align: center;
 }
 
 th{
-    font-size: 11px;
+    font-size: 10px;
 }
 
 td{
-    font-size: 9px;
+    font-size: 8px;
 }
 
 

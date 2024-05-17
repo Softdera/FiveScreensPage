@@ -381,7 +381,15 @@
                                     </div> 
                                     <hr class="fullHr">
 
+                                    <div class="MobileNav">               
+<i class="fa-regular fa-bell mobileBell"></i>
+<span class="status-dot"></span>
 
+
+<i class="fa-solid fa-user"></i>
+<span class="status-dott"></span>
+ <i class="fa-solid fa-angle-down MobileAngle"></i>
+</div>
                                 </div>
                                 
                             </div>
@@ -1064,7 +1072,7 @@ width: 180px;
     text-align: left;
     color: #186BAD;
     position: relative;
-    left: 30px;
+    left: 1px;
     top: 3px;
 
 }
@@ -1110,6 +1118,11 @@ width: 180px;
  left: 20px;
  opacity: 1;
 
+
+
+} 
+ 
+
 }
 
 
@@ -1121,7 +1134,7 @@ width: 180px;
 
 
     
-}
+
 
 
 
