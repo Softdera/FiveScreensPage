@@ -1,33 +1,6 @@
 <template>
 
-    <!--nav>
-    <ul>
-        <li><a href="#" class="prolife">
-            <i class="fa-solid fa-layer-group" style="color: #63E6BE;"></i>
-            PROLIFERATE</a></li>
-        <li>
-        <input type="text"
-        class="searchQuery"
-        v-model="searchQuery"
-        placeholder="Search">
-        <i class="fa-solid fa-magnifying-glass"></i>
-
-    </li>
-      <li><a href="#"> 
-        <i class="fa-solid fa-ticket"></i>
-        <i class="fa-regular fa-envelope"></i>
-        <i class="fa-regular fa-bell"></i>
-        <i class="fa-regular fa-comment"></i>
-        <i class="fa-solid fa-gear"></i>
-    </a></li>
-        <li class="userList"><a href="#"> <img src='https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745'
-                        alt='user_image'
-                        class='user' />
-                        <i class="fa-solid fa-angle-down"></i>
-
-                    </a></li>
-    </ul>
-    </nav-->
+  
 
     <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
@@ -100,8 +73,7 @@
       </ul>
     </div>
   </div>
-</nav>
-
+<div class="MobileNav">
 <i class="fa-regular fa-bell mobileBell"></i>
 <span class="status-dot"></span>
 
@@ -109,10 +81,10 @@
 <i class="fa-solid fa-user"></i>
 <span class="status-dott"></span>
 
-                        <!--img src='../assets/passportImg.jpeg'
-                        alt='userMobile'
-                        class='userMobile' /-->
-                        <i class="fa-solid fa-angle-down MobileAngle"></i>
+  <i class="fa-solid fa-angle-down MobileAngle"></i>
+</div>
+</nav>
+
 
 
   
@@ -360,7 +332,7 @@ nav{
 
 
 .userMobile{
-    left: 466px;
+    left: 426px;
     z-index: 2;
     height: 25px;
     position: absolute;
@@ -368,53 +340,46 @@ nav{
     margin-right: 30px;
     opacity: 1;
     display:contents;
-
-
 }
+    
 .mobileBell{
-    font-size: 25px;
-    position: absolute;
-    left: 410px;
+    
     opacity: 1;
-    top: 31px;
     display:contents;
+    z-index: 3;
+
+    position: absolute;
+    font-size: 23px;
+    bottom: 27.14px;
+    right: 400px;
+
 }
 
 
 .fa-user{
     font-size: 25px;
     position: absolute;
-    left: 460px;
+    right: 400px;
     opacity: 1;
-    top: 30px;
+    bottom: 27.14px;
     display:contents;
-
+    z-index: 3;
 }
 
 
 .MobileAngle{
-    font-size: 40px;
+        z-index: 3;
     position: absolute;
     opacity: 1;
     font-size: 10px;
-    left: 485px;
-    top: 40px;
+    right: 305px;
+    bottom: 22.14px;
     display: contents;
+    font-size: 15px;
 
 
 }
 
-.status-dot{
-    width: 8px;
-  height: 8px;
-  background-color: #00ff00; 
-  border-radius: 50%;
-  margin-right: 5px;
-  position: absolute;
-  left: 428px;
-  top: 36px;
-
-}
 
 
 .status-dott{
@@ -424,16 +389,37 @@ nav{
   border-radius: 50%;
   margin-right: 5px;
   position: absolute;
-  left: 483px;
-  top: 54px;
+  left: 10px;
+  top: 5px;
 
 }
+
+
+.status-dot{
+    width: 8px;
+  height: 8px;
+  background-color: #00ff00; 
+  border-radius: 50%;
+  margin-right: 5px;
+  position: absolute;
+  left: 38px;
+  bottom: 1px;
+
+}
+
 
 .fa-bars{
     opacity: 0;
 }
 
 
+.MobileNav{
+    width: 200px;
+    position: relative;
+    left: 330px;
+    margin-right: 10px;
+    gap: 5px;
+}
 
 
 
